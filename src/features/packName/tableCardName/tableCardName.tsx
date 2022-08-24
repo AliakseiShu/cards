@@ -4,7 +4,7 @@ import styles from './tableCardName.module.css';
 import {useAppDispatch, useAppSelector} from "../../../app/store";
 import {fetchCardsTC} from "../reducer/packCardReducer";
 import {TableCard} from "./TableCard";
-import {Navigate, useNavigate} from "react-router-dom";
+import {Navigate} from "react-router-dom";
 import {PATH} from "../../../enums/path";
 
 export const TableCardName = () => {

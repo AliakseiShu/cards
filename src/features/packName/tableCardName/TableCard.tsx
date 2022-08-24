@@ -5,26 +5,14 @@ import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
 import {TextField} from '@mui/material';
 import {PaginationGroup} from '../../packsList/paginationGroup/PaginationGroup';
-import ArrowBackSharpIcon from '@mui/icons-material/ArrowBackSharp';
-import Paper from '@mui/material/Paper';
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-import CreateIcon from '@mui/icons-material/Create';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import IconButton from '@mui/material/IconButton';
 
 import Button from '../../../common/button/Button';
 import {useAppDispatch, useAppSelector} from '../../../app/store';
-import {
-    setCardAnswer,
-    setCardId,
-    setCardQuestion,
-    setCardsPage,
-    setCardsPageCount,
-    setSearchQuestion
-} from '../reducer/packCardReducer';
+import {setCardsPage, setCardsPageCount, setSearchQuestion} from '../reducer/packCardReducer';
 import {useNavigate} from 'react-router-dom';
 import useDebounce from '../../packsList/tablePacks/utils/useDebounce';
-import {StyledTableCell, StyledTableRow} from './styledTableCard/styledTableCard';
 import {AddCardModal} from '../../../components/Modals/cardModals/AddCardModal';
 import {handleOpenModal} from '../../../components/Modals/utilsModal';
 import {DeleteCardModal} from '../../../components/Modals/cardModals/DeleteCardModal';
