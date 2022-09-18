@@ -1,10 +1,11 @@
 Startup - question answer card game
+<hr>
 
-Stack:
-<div>
-ReactJS + хуки
-React Router
-Axios
-SCSS
-Redux
-</div>
+<b>Stack:</b>
+<ul>
+<li>ReactJS + хуки</li>
+<li>React Router</li>
+<li>Axios</li>
+<li>SCSS</li>
+<li>Redux</li>
+</ul>
