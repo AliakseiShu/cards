@@ -42,12 +42,10 @@ export type ActionsType =
     | CardsNameActionsType
     | LearnPackActionsType
 
-
 export type AppThunk<ReturnType = void> = ThunkAction<ReturnType, AppStateType, unknown, ActionsType>;
 
 export type AppDispatch = ThunkDispatch<AppStateType, unknown, ActionsType>;
 
-// Use throughout your app instead of plain `useDispatch` and `useSelector`
 export const useAppDispatch = () => useDispatch<AppDispatch>();
 export const useAppSelector: TypedUseSelectorHook<AppStateType> = useSelector;
 
