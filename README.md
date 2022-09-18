@@ -4,7 +4,8 @@
 **Stack:**
 
 - ReactJS + хуки
+- Typescript
 - React Router
+- Redux
 - Axios
 - SCSS
-- Redux
