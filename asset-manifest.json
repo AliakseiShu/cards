@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cards/static/css/main.45b1a0e3.css",
+    "main.js": "/cards/static/js/main.eb7bd6f9.js",
+    "static/media/avatar.jpg": "/cards/static/media/avatar.e4150b9c1e3e7e36e5e4.jpg",
+    "static/media/cam-icon-png-2.jpg": "/cards/static/media/cam-icon-png-2.ac71a90aac1ec015f13c.jpg",
+    "static/media/mail.svg": "/cards/static/media/mail.99281c59beef723505deaf5ec85e888e.svg",
+    "index.html": "/cards/index.html",
+    "main.45b1a0e3.css.map": "/cards/static/css/main.45b1a0e3.css.map",
+    "main.eb7bd6f9.js.map": "/cards/static/js/main.eb7bd6f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b1a0e3.css",
+    "static/js/main.eb7bd6f9.js"
+  ]
+}
